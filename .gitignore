@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Local training outputs (can be added to GitHub deliberately for deployment)
+models/*.joblib
+reports/metrics.json
+
+# Downloaded source dataset; download it from UCI when needed
+# The small demo CSV is intentionally tracked.
+data/ai4i2020.csv
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
